@@ -8,6 +8,8 @@ for i in range(N):
         cnt += 1
     elif ll[i] % 2 != 0 and ll[i] % 3 == 0:
         cnt += ll[i]
+    else:
+        cnt = cnt
 
 print(cnt)
 
