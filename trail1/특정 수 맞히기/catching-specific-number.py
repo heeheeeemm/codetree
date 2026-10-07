@@ -5,7 +5,7 @@ while True:
     arr.append(n)
 
     if n < 25 :
-        print('Heigher')
+        print('Higher')
 
     elif n > 25:
         print('Lower')
