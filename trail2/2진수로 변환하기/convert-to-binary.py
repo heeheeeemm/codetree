@@ -6,10 +6,8 @@ while True:
     arr.append(b)
     n = n // 2
 
-    if n < 2:
-        arr.append(n)
+    if n == 0:
         break
 
 for i in range(len(arr)-1,-1,-1):
     print(arr[i],end='')
-
