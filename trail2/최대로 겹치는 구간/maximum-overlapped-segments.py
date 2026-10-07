@@ -8,7 +8,7 @@ for _ in range(n):
     a = a + 100
     b = b + 100
 
-    for i in range(a,b+1) :
+    for i in range(a,b) :
         arr[i] += 1
 
 print(max(arr))
